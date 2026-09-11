@@ -703,13 +703,18 @@ def render(a):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{R}assets/css/site.css?v=4">
+<link rel="icon" href="{R}assets/logo/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="{R}assets/logo/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{R}assets/logo/favicon-192.png">
+<link rel="apple-touch-icon" href="{R}assets/logo/apple-touch-icon.png">
+<meta name="theme-color" content="#FFD400">
+<link rel="stylesheet" href="{R}assets/css/site.css?v=5">
 {jsonld(a, R)}</head>
 <body>
 
 <header class="scrolled">
   <div class="wrap nav">
-    <a class="logo" href="{R}">COMPARA<span>MODE</span></a>
+    <a class="logo" href="{R}" aria-label="Comparamode, accueil"><img class="l-light" src="{R}assets/logo/logo-light.png" alt="Comparamode" width="620" height="133"><img class="l-dark" src="{R}assets/logo/logo.png" alt="" aria-hidden="true" width="620" height="133"></a>
     <ul class="menu">
 {menu}    </ul>
     <div class="nav-actions">
@@ -808,7 +813,7 @@ def render(a):
 <footer>
   <div class="wrap">
     <div class="foot-grid">
-      <div class="foot-brand"><a class="logo" href="{R}">COMPARA<span>MODE</span></a><p>Le comparateur indépendant des marques de vêtements. Nous relevons, nous comparons, nous classons.</p></div>
+      <div class="foot-brand"><a class="logo" href="{R}" aria-label="Comparamode, accueil"><img src="{R}assets/logo/logo.png" alt="Comparamode" width="620" height="133" loading="lazy"></a><p>Le comparateur indépendant des marques de vêtements. Nous relevons, nous comparons, nous classons.</p></div>
       <div><h4>Comparatifs</h4><ul>{"".join(f'<li><a href="{R}{s}/">{n}</a></li>' for s, n in CATS.items())}</ul></div>
       <div><h4>Marques</h4><ul><li><a href="#">Kiabi</a></li><li><a href="#">Zara</a></li><li><a href="#">H&amp;M</a></li><li><a href="#">Primark</a></li><li><a href="{R}#marques">Toutes les marques</a></li></ul></div>
       <div><h4>À propos</h4><ul><li><a href="{R}#methode">Notre méthode</a></li><li><a href="#">Qui sommes-nous</a></li><li><a href="#">Contact</a></li><li><a href="#">Mentions légales</a></li></ul></div>
@@ -817,7 +822,7 @@ def render(a):
   </div>
 </footer>
 
-<script src="{R}assets/js/site.js?v=4"></script>
+<script src="{R}assets/js/site.js?v=5"></script>
 </body>
 </html>
 '''

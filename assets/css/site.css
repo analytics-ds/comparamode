@@ -39,7 +39,7 @@ h1,h2,h3,h4,.display{font-family:var(--display);font-weight:700;letter-spacing:.
 header{position:fixed;top:0;left:0;right:0;z-index:50;background:transparent;border-bottom:1px solid transparent;transition:background .35s,border-color .35s;color:#fff}
 header.scrolled{background:rgba(251,246,228,.86);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom-color:var(--line);color:var(--ink)}
 header .logo span{color:var(--yellow)}
-header.scrolled .logo span{color:#B99400}
+header.scrolled 
 header .menu a{color:rgba(255,255,255,.85)}
 header.scrolled .menu a{color:var(--ink-2)}
 header .iconbtn{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3)}
@@ -51,8 +51,15 @@ header.scrolled .btn-dark{background:var(--ink);color:#fff;border-color:var(--in
 header .burger svg{stroke:#fff}
 header.scrolled .burger svg{stroke:#111}
 .nav{display:flex;align-items:center;gap:26px;padding-block:16px}
-.logo{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.02em;transition:color .3s}
-.logo span{color:#B99400}
+.logo{display:block;line-height:0;flex:none}
+.logo img{height:44px;width:auto;display:block}
+header .logo .l-dark{display:none}
+header.scrolled .logo .l-dark{display:block}
+header.scrolled .logo .l-light{display:none}
+footer .logo .l-light{display:none}
+footer .logo img{height:40px}
+@media (max-width:600px){.logo img{height:36px}}
+
 .menu{display:flex;gap:28px;margin:0 auto;list-style:none;padding:0}
 .menu a{font-size:13px;font-weight:500;color:var(--ink-2)}
 .menu a:hover{color:#000;text-decoration:underline;text-underline-offset:6px}
