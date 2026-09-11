@@ -71,6 +71,7 @@ dict(
   dict(h2="Le tableau comparatif des 14 marques", id="tableau", body=[
    ("p","Chaque ligne correspond au même panier, un jean, un sweat, deux t-shirts et une paire de chaussettes en taille 6 ans, au prix catalogue relevé sur le site de la marque."),
    ("table",None),
+   ("img",dict(src="in-enfant-1.jpg",alt="Vêtements pour enfant posés à plat, short et t-shirt",cap="Le panier de référence, cinq pièces équivalentes par marque en taille 6 ans.")),
    ("p","Trois enseignements ressortent de ce tableau. D'abord, l'écart de prix entre la moins chère et la plus chère atteint un facteur 4,4. Ensuite, le prix ne prédit pas la fidélité des tailles, Primark taille 2 cm trop grand et Zara Kids 2,5 cm trop petit. Enfin, seules quatre marques sur quatorze réunissent moins de 10 % d'avis clients signalant une perte de couleur ou de forme."),
   ]),
   dict(h2="Quelle marque taille le plus juste pour un enfant", id="tailles", body=[
@@ -89,6 +90,7 @@ dict(
      head=["Marque","Vestiaire complet","Coût par mois","Pièces sous 10 €"],
      rows=[["Primark","238 €","19,80 €","14"],["Shein","251 €","20,90 €","16"],["Kiabi","286 €","23,80 €","11"],["C&amp;A","324 €","27,00 €","7"],["H&amp;M","371 €","30,90 €","5"]],
      note="Vestiaire de 22 pièces pour un enfant de 6 ans, prix catalogue relevés hors soldes en septembre 2026.")),
+   ("img",dict(src="in-enfant-2.jpg",alt="Manteaux pour enfant sur un portant en magasin",cap="Le manteau est le poste le plus lourd du vestiaire, de 19 € à plus de 120 € selon la marque.")),
    ("p","Primark et Shein remportent la bataille du prix affiché, mais les avis clients changent le calcul. Sur les pièces portées plusieurs fois par semaine, 31 % des avis Shein et 19 % des avis Primark signalent un remplacement dans l'année, contre 6 % chez Kiabi. Le vestiaire le moins cher à l'achat n'est donc pas le moins cher à l'usage."),
   ]),
   dict(h2="Kiabi, H&amp;M ou Zara Kids, comment choisir", id="choisir", body=[
@@ -164,6 +166,7 @@ dict(
   dict(h2="Le tableau comparatif des 18 marques", id="tableau", body=[
    ("p","Nous avons pris le même repère chez chaque marque, un t-shirt basique col rond, puis élargi à une robe, un jean, un pull et une veste. Le tableau donne le repère t-shirt et les écarts de grille."),
    ("table",None),
+   ("img",dict(src="in-femme-1.jpg",alt="Deux manteaux, camel et noir, portés dans la rue",cap="Le manteau est la pièce où l'écart de composition entre marques se voit le plus vite.")),
    ("p","Le prix ne dit rien de la cohérence des tailles. Massimo Dutti à 45 € et Kiabi à 6,99 € annoncent des grilles proches de la moyenne, alors que Stradivarius à 12,99 € annonce 2,5 cm de moins. Le prix dit en revanche beaucoup de la composition, aucun t-shirt sous 7 € de notre relevé ne dépasse 150 g/m² de coton."),
   ]),
   dict(h2="Quelle marque taille le plus juste", id="tailles", body=[
@@ -182,6 +185,7 @@ dict(
      head=["Marque","Grammage","Prix","Bouloches signalées","Rétrécissement"],
      rows=[["Uniqlo","185 g/m²","14,90 €","Aucune","1 %"],["Massimo Dutti","180 g/m²","45,00 €","Aucune","1 %"],["Kiabi","155 g/m²","6,99 €","Légères","3 %"],["H&amp;M","150 g/m²","9,99 €","Légères","3 %"],["Primark","125 g/m²","4,00 €","Marquées","6 %"]],
      note="T-shirt basique blanc, grammage affiché sur la fiche produit, bouloches et rétrécissement d'après les avis clients.")),
+   ("img",dict(src="in-femme-2.jpg",alt="Pull en maille rouge et pile de mailles",cap="Sur la maille, le pourcentage de laine annoncé explique la majorité des écarts de prix.")),
    ("p","Uniqlo offre le meilleur rapport grammage-prix du panel, avec une densité annoncée proche de Massimo Dutti pour un tiers du prix. Kiabi reste le meilleur choix sous 10 €, avec peu d'avis signalant un rétrécissement."),
   ]),
   dict(h2="Zara, Kiabi ou Mango, comment choisir", id="choisir", body=[
@@ -255,6 +259,7 @@ dict(
   dict(h2="Le tableau comparatif des 12 marques", id="tableau", body=[
    ("p","Deux repères par marque, un jean cinq poches coupe droite et un hoodie uni, au prix catalogue. Le tableau ajoute l'écart de col d'après la grille officielle sur une chemise annoncée 39 et le grammage affiché du molleton."),
    ("table",None),
+   ("img",dict(src="in-homme-1.jpg",alt="Homme portant un hoodie gris",cap="Le grammage du molleton va de 220 à 400 g/m² selon la marque, à prix parfois équivalent.")),
    ("p","Le grammage du hoodie est l'indicateur le plus parlant du panel. Entre les 220 g/m² de Shein et les 400 g/m² de Decathlon, les avis clients divergent nettement, le molleton léger étant très souvent cité pour un col et des poignets qui se détendent."),
   ]),
   dict(h2="Chemises, la taille de col ne veut pas dire la même chose partout", id="cols", body=[
@@ -273,6 +278,7 @@ dict(
      head=["Marque","Prix costume","Doublure","Retouches","Coût réel"],
      rows=[["Kiabi","119 €","Partielle","35 €","154 €"],["H&amp;M","149 €","Complète","35 €","184 €"],["Zara","199 €","Complète","40 €","239 €"],["Celio","179 €","Partielle","35 €","214 €"],["Massimo Dutti","349 €","Complète","0 €","349 €"]],
      note="Costume deux pièces laine mélangée, prix catalogue et tarif moyen constaté pour une retouche de manche et d'ourlet, septembre 2026.")),
+   ("img",dict(src="in-homme-2.jpg",alt="Homme en costume devant des portants",cap="Sous 200 €, la doublure et le pourcentage de laine annoncés séparent nettement les cinq marques.")),
    ("p","Sous 200 €, H&amp;M offre le meilleur compromis avec une doublure complète et une laine mélangée annoncée à 45 %. Kiabi reste l'option la plus économique pour un mariage ponctuel, avec une doublure partielle."),
   ]),
   dict(h2="Kiabi, H&amp;M ou Zara, comment choisir", id="choisir", body=[
@@ -345,6 +351,7 @@ dict(
   dict(h2="Le tableau des écarts de taille réels", id="tableau", body=[
    ("p","Nous avons repris la grille publiée par chaque marque et comparé, pour un même 50 annoncé, le tour de taille et le tour de hanches indiqués."),
    ("table",None),
+   ("img",dict(src="in-gt-1.jpg",alt="Détail de la ceinture et de la poche d'un jean",cap="Sur un pantalon annoncé 50, le tour de taille indiqué varie de 88 à 98 cm selon la grille.")),
    ("p","L'écart le plus problématique n'est pas le plus grand, c'est le plus variable. Chez Shein Curve, les avis clients signalent jusqu'à 10 cm de différence entre deux pantalons annoncés 50, ce qui rend la commande impossible à sécuriser. Les marques fidèles à un ou deux centimètres près permettent au moins de commander en confiance."),
   ]),
   dict(h2="Où trouver du 54, du 56 et du 58", id="disponibilite", body=[
@@ -363,6 +370,7 @@ dict(
      head=["Marque","Prix en 40","Prix en 52","Écart"],
      rows=[["Kiabi","12,99 €","12,99 €","0 %"],["Uniqlo","19,90 €","19,90 €","0 %"],["H&amp;M+","17,99 €","19,99 €","+11 %"],["C&amp;A","15,99 €","17,99 €","+13 %"],["Shein Curve","8,50 €","10,00 €","+18 %"]],
      note="Même référence de pantalon, prix catalogue relevés en septembre 2026 sur les sites des marques.")),
+   ("img",dict(src="in-gt-2.jpg",alt="Mètres rubans de couturière",cap="Comparer les grilles officielles entre elles reste le seul moyen fiable de savoir ce que vaut une taille annoncée.")),
    ("p","Kiabi et Uniqlo appliquent le même prix quelle que soit la taille. Les autres marques du panel majorent de 11 à 18 % au-delà du 46, ce qui représente jusqu'à 2 € sur un basique et davantage sur une pièce structurée."),
   ]),
  ],
@@ -426,6 +434,7 @@ dict(
   dict(h2="Le tableau comparatif des 10 marques", id="tableau", body=[
    ("p","Chaque vestiaire comprend les mêmes douze pièces, chiffrées au prix catalogue. Le confort du bandeau est établi à partir des avis clients, en distinguant ceux qui portent au cinquième, au septième et au neuvième mois."),
    ("table",None),
+   ("img",dict(src="in-gross-1.jpg",alt="Deux femmes enceintes de profil",cap="Un vestiaire de grossesse se porte environ six mois, ce qui change la lecture du prix.")),
    ("p","L'écart de prix entre Primark et Envie de Fraise atteint un facteur 3,5. Mais 28 % des avis Primark mentionnent une pièce remplacée en cours de grossesse, contre 7 % chez Kiabi et H&amp;M Mama, ce qui réduit l'écart réel."),
   ]),
   dict(h2="Quel jean de grossesse choisir", id="jean", body=[
@@ -444,6 +453,7 @@ dict(
      head=["Poste","Kiabi","H&amp;M Mama","C&amp;A","Primark"],
      rows=[["Deux jeans","46 €","60 €","50 €","34 €"],["Quatre hauts","36 €","48 €","40 €","24 €"],["Deux robes","30 €","40 €","32 €","20 €"],["Manteau","19 €","24 €","22 €","14 €"],["Lingerie et legging","8 €","6 €","12 €","6 €"]],
      note="Vestiaire de 12 pièces, prix catalogue hors soldes relevés en septembre 2026.")),
+   ("img",dict(src="in-gross-2.jpg",alt="Femme allaitant son bébé",cap="Les pièces d'allaitement prolongent l'usage du vestiaire après la naissance, six marques du panel en proposent.")),
    ("p","Le jean représente à lui seul un tiers du budget chez toutes les marques du panel. C'est donc le poste sur lequel arbitrer, en achetant un jean de qualité et en complétant les hauts chez la marque la moins chère."),
   ]),
   dict(h2="Faut-il prendre sa taille habituelle", id="tailles", body=[
@@ -506,6 +516,7 @@ dict(
    ("p","La question de la rentrée n'est pas de savoir quelle marque fait le plus joli pantalon, mais combien de vêtements votre enfant rapporte à la maison pour un budget fixe. Nous avons donc posé la même liste chez les trois marques, puis compté."),
    ("podium",None),
    ("table",None),
+   ("img",dict(src="in-rentree-1.jpg",alt="Sacs à dos d'écoliers accrochés côte à côte",cap="Le sac à dos ferme la liste de rentrée, de 9,99 € chez Kiabi à 22,95 € chez Zara Kids.")),
    ("p","L'écart est massif. Pour le même billet de 100 €, un enfant repart avec neuf pièces chez Kiabi, six chez H&amp;M et quatre chez Zara Kids. Autrement dit, une rentrée complète d'un côté, deux tenues de l'autre."),
   ]),
   dict(h2="Le prix poste par poste", id="postes", body=[
@@ -531,6 +542,7 @@ dict(
     "<b>Zara Kids</b> annonce 2,5 cm de moins, il faut prendre la taille au-dessus dès la rentrée",
     "Sur un 8 ans, ces 2,5 cm représentent une demi-taille commerciale, soit environ six mois de port",
    ]),
+   ("img",dict(src="in-rentree-2.jpg",alt="Enfant en vêtements de rentrée",cap="Entre janvier et avril, un enfant de 8 ans change souvent de taille. La marge de la grille compte autant que le prix.")),
    ("p","Concrètement, un 8 ans Zara Kids correspond à un 7 ans Kiabi sur la longueur de haut. Si vous achetez chez Zara Kids, prenez directement le 10 ans, sinon le sweat sera court avant les vacances de février."),
   ]),
   dict(h2="La tenue sur une année scolaire", id="tenue", body=[
@@ -620,6 +632,9 @@ def render_body(a, R):
                 html += "<ul>" + "".join(f"<li>{li}</li>" for li in val) + "</ul>"
             elif kind == "ol":
                 html += "<ol>" + "".join(f"<li>{li}</li>" for li in val) + "</ol>"
+            elif kind == "img":
+                html += (f'<figure><img src="{R}assets/img/{val["src"]}" alt="{val["alt"]}" '
+                         f'width="1200" height="700" loading="lazy"><figcaption>{val["cap"]}</figcaption></figure>')
             elif kind == "quote":
                 html += f"<blockquote><p>{val}</p></blockquote>"
             elif kind == "table":
@@ -735,10 +750,10 @@ def render(a):
         <ul>{brief}</ul>
       </div>
 
-      <nav class="toc" aria-label="Sommaire">
-        <h2>Sommaire</h2>
+      <details class="toc">
+        <summary>Sommaire de ce comparatif</summary>
         <ol>{toc}</ol>
-      </nav>
+      </details>
 
       {render_body(a, R)}
 
