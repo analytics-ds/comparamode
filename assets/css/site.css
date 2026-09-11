@@ -38,9 +38,7 @@ h1,h2,h3,h4,.display{font-family:var(--display);font-weight:700;letter-spacing:.
 /* ---------- header sticky ---------- */
 header{position:fixed;top:0;left:0;right:0;z-index:50;background:transparent;border-bottom:1px solid transparent;transition:background .35s,border-color .35s;color:#fff}
 header.scrolled{background:rgba(251,246,228,.86);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom-color:var(--line);color:var(--ink)}
-header .logo span{color:var(--yellow)}
-header.scrolled 
-header .menu a{color:rgba(255,255,255,.85)}
+header .menu a{color:#fff}
 header.scrolled .menu a{color:var(--ink-2)}
 header .iconbtn{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3)}
 header .iconbtn svg{stroke:#fff}
