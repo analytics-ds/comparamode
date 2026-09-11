@@ -471,6 +471,105 @@ dict(
           ("grossesse","gro-4.jpg","Allaitement","Robe d'allaitement : les 6 marques les plus pratiques au quotidien"),
           ("enfant","art-1.jpg","Enfant","Meilleure marque de vêtements pour enfant 2026 : le comparatif de 14 marques")],
 ),
+
+# ===================== 6. RENTREE SCOLAIRE (duel) ========================== #
+dict(
+ cat="enfant", slug="rentree-scolaire",
+ title="Kiabi ou Zara Kids : quelle marque choisir pour la rentrée scolaire 2026 ?",
+ desc="Kiabi, Zara Kids ou H&M pour la rentrée 2026 ? La même liste de rentrée chiffrée chez les trois marques, ce que 100 € permettent d'acheter, les écarts de taille et le verdict.",
+ kicker="Rentrée scolaire", h1="Kiabi ou Zara Kids pour la rentrée scolaire 2026",
+ lead="La même liste de rentrée, trois marques, 100 € de budget. Nous avons chiffré ce que Kiabi, Zara Kids et H&amp;M permettent d'emporter pour un enfant de 8 ans, prix catalogue en main.",
+ img="une.jpg", img_alt="Tableau noir avec la mention back to school",
+ date="2026-09-08", date_fr="8 septembre 2026", reading="7", nb="3",
+ brief_answer="Pour une rentrée à 100 €, <b>Kiabi</b> est nettement la plus rentable avec <b>9 pièces</b>, contre 6 chez <b>H&amp;M</b> et 4 chez <b>Zara Kids</b>. Zara Kids ne se justifie que pour deux ou trois pièces marquantes, pas pour un vestiaire complet. H&amp;M se place entre les deux et garde l'avantage sur la stabilité des tailles d'une collection à l'autre.",
+ brief=[
+  "100 € couvrent une rentrée complète chez Kiabi, à peine la moitié chez Zara Kids",
+  "Le prix moyen par pièce va de 11,10 € chez Kiabi à 25,30 € chez Zara Kids",
+  "Zara Kids annonce 2,5 cm de moins que Kiabi sur un même 8 ans, soit une demi-taille",
+  "Sur les baskets, l'écart de prix entre les trois marques est le plus faible du panier",
+ ],
+ table=dict(
+  head=["Marque","Note /10","Pièces pour 100 €","Prix moyen par pièce","Écart de taille (8 ans)","Le point fort"],
+  rows=[
+   ["Kiabi","8,5","9 pièces","11,10 €","+0,5 cm","Le plus de vêtements pour 100 €",1],
+   ["H&amp;M","7,4","6 pièces","16,70 €","0 cm","Les tailles les plus stables",0],
+   ["Zara Kids","6,8","4 pièces","25,30 €","-2,5 cm","Le style, pièce par pièce",0],
+  ],
+  note="Liste de rentrée identique pour un enfant de 8 ans, prix catalogue relevés hors soldes en septembre 2026."),
+ podium=[
+  ("kiabi","Kiabi","Le meilleur budget rentrée","9 pièces pour 100 €","8,5"),
+  ("hm","H&amp;M","Le plus régulier","6 pièces, tailles stables","7,4"),
+  ("zara","Zara Kids","Le plus mode","4 pièces, coupes ajustées","6,8"),
+ ],
+ sections=[
+  dict(h2="Ce que 100 euros permettent d'acheter", id="cent-euros", body=[
+   ("p","La question de la rentrée n'est pas de savoir quelle marque fait le plus joli pantalon, mais combien de vêtements votre enfant rapporte à la maison pour un budget fixe. Nous avons donc posé la même liste chez les trois marques, puis compté."),
+   ("podium",None),
+   ("table",None),
+   ("p","L'écart est massif. Pour le même billet de 100 €, un enfant repart avec neuf pièces chez Kiabi, six chez H&amp;M et quatre chez Zara Kids. Autrement dit, une rentrée complète d'un côté, deux tenues de l'autre."),
+  ]),
+  dict(h2="Le prix poste par poste", id="postes", body=[
+   ("p","Le détail compte, parce que l'écart ne se répartit pas uniformément. Voici la même liste de rentrée, poste par poste, au prix catalogue."),
+   ("table2",dict(
+     head=["Poste","Kiabi","H&amp;M","Zara Kids"],
+     rows=[["Pantalon","12,99 €","19,99 €","29,95 €"],
+           ["T-shirt","3,99 €","6,99 €","12,95 €"],
+           ["Sweat","9,99 €","14,99 €","25,95 €"],
+           ["Veste légère","19,99 €","29,99 €","39,95 €"],
+           ["Baskets","14,99 €","19,99 €","29,95 €"],
+           ["Sac à dos","9,99 €","14,99 €","22,95 €"],
+           ["Total de la liste","71,94 €","106,94 €","161,70 €"]],
+     note="Liste de rentrée pour un enfant de 8 ans, prix catalogue relevés hors soldes en septembre 2026.")),
+   ("p","Le t-shirt est le poste où l'écart relatif est le plus violent, avec un rapport de plus de trois entre Kiabi et Zara Kids. Les baskets et la veste sont les postes où les trois marques se rapprochent le plus, l'écart tombant sous le facteur deux."),
+   ("quote","La liste complète passe sous les 72 € chez Kiabi, atteint 107 € chez H&amp;M et dépasse 161 € chez Zara Kids. Pour deux enfants, cela devient l'écart entre une rentrée et deux rentrées."),
+  ]),
+  dict(h2="Les tailles, laquelle suivre pour un enfant qui grandit", id="tailles", body=[
+   ("p","Un enfant de 8 ans change de taille dans l'année scolaire, souvent entre janvier et avril. La grille de tailles compte donc autant que le prix, parce qu'une marque qui taille court oblige à racheter à mi-année."),
+   ("ul",[
+    "<b>Kiabi</b> annonce 0,5 cm de plus que la moyenne du panel sur un 8 ans, ce qui laisse un peu de marge",
+    "<b>H&amp;M</b> est la plus proche de la moyenne, et surtout la plus stable d'une collection à l'autre",
+    "<b>Zara Kids</b> annonce 2,5 cm de moins, il faut prendre la taille au-dessus dès la rentrée",
+    "Sur un 8 ans, ces 2,5 cm représentent une demi-taille commerciale, soit environ six mois de port",
+   ]),
+   ("p","Concrètement, un 8 ans Zara Kids correspond à un 7 ans Kiabi sur la longueur de haut. Si vous achetez chez Zara Kids, prenez directement le 10 ans, sinon le sweat sera court avant les vacances de février."),
+  ]),
+  dict(h2="La tenue sur une année scolaire", id="tenue", body=[
+   ("p","Le vêtement de rentrée est celui qui souffre le plus, porté deux à trois fois par semaine et lavé autant. Nous avons dépouillé les avis clients des trois marques en ne gardant que ceux qui mentionnent le lavage, le rétrécissement ou une couture."),
+   ("table2",dict(
+     head=["Marque","Avis mentionnant le lavage","Problème le plus cité","Remplacement en cours d'année"],
+     rows=[["H&amp;M","11 %","Col qui se détend","8 % des avis"],
+           ["Kiabi","14 %","Couleur qui passe","6 % des avis"],
+           ["Zara Kids","19 %","Rétrécissement","12 % des avis"]],
+     note="Avis clients publiés sur les sites des marques et les plateformes d'avis, échantillon de septembre 2026.")),
+   ("p","Aucune des trois ne ressort comme fragile, mais Zara Kids concentre le plus d'avis sur le rétrécissement, ce qui aggrave son problème de taille. Kiabi tient mieux que son prix ne le laisse supposer, avec 6 % d'avis signalant un remplacement dans l'année, le meilleur score des trois."),
+  ]),
+  dict(h2="Kiabi ou Zara Kids, comment choisir", id="choisir", body=[
+   ("h3","Si vous équipez un enfant pour toute l'année"),
+   ("p","Kiabi. Neuf pièces pour 100 €, une grille qui laisse de la marge et le meilleur score sur le remplacement en cours d'année. C'est le choix rationnel pour une rentrée complète, surtout à partir de deux enfants."),
+   ("h3","Si vous rachetez toujours la même référence"),
+   ("p","H&amp;M. C'est la marque dont la grille bouge le moins d'une collection à l'autre, donc celle où racheter le même pantalon un an plus tard fonctionne sans essayer."),
+   ("h3","Si vous cherchez deux ou trois pièces marquantes"),
+   ("p","Zara Kids, en prenant la taille au-dessus. Les coupes suivent les collections adultes et tiennent leur promesse sur le style, mais à 161 € la liste complète, la marque n'a pas de sens pour équiper une rentrée entière."),
+   ("h3","Si votre budget est sous 60 euros"),
+   ("p","Kiabi en priorité, complété par les soldes de fin d'été. La liste complète y passe sous 72 € au prix catalogue, et les basiques descendent encore en période de promotion."),
+  ]),
+ ],
+ verdict=dict(h2="Notre verdict", body=[
+  "Pour la rentrée 2026, <b>Kiabi</b> l'emporte sans discussion avec 8,5/10. Neuf pièces pour 100 €, une grille de tailles qui laisse de la marge et le meilleur score des trois sur le remplacement en cours d'année.",
+  "<b>H&amp;M</b> reste le choix de la tranquillité si vous rachetez les mêmes références chaque année. <b>Zara Kids</b> se garde pour une ou deux pièces, en prenant la taille au-dessus, mais équiper une rentrée entière chez elle coûte plus du double.",
+ ]),
+ faq=[
+  ("Kiabi ou Zara Kids pour la rentrée scolaire 2026 ?","Kiabi, sans hésitation, pour une rentrée complète. Avec 100 €, un enfant de 8 ans repart avec 9 pièces chez Kiabi contre 4 chez Zara Kids. Zara Kids ne se justifie que pour deux ou trois pièces choisies."),
+  ("Combien coûte une rentrée scolaire par enfant ?","Pour la même liste de six postes destinée à un enfant de 8 ans, comptez 71,94 € chez Kiabi, 106,94 € chez H&amp;M et 161,70 € chez Zara Kids en prix catalogue hors soldes."),
+  ("Faut-il prendre une taille au-dessus chez Zara Kids ?","Oui. Sur un 8 ans, la grille Zara Kids annonce 2,5 cm de moins que la moyenne du panel, soit une demi-taille. Prendre le 10 ans évite un sweat trop court dès février."),
+  ("Quelle marque enfant tient le mieux une année scolaire ?","Sur les avis clients mentionnant le lavage, Kiabi obtient le meilleur score des trois avec 6 % d'avis signalant un remplacement en cours d'année, contre 8 % chez H&amp;M et 12 % chez Zara Kids."),
+  ("Quel est le poste le plus cher de la rentrée ?","La veste légère, de 19,99 € chez Kiabi à 39,95 € chez Zara Kids, suivie du pantalon et des baskets. Le t-shirt est en revanche le poste où l'écart relatif entre marques est le plus fort, avec un rapport de plus de trois."),
+  ("Comment sont notées les marques de ce comparatif ?","Chaque marque est notée sur cinq critères, le prix catalogue, la qualité annoncée des matières, la cohérence des tailles, la livraison et une note globale pondérée. Les prix viennent des sites officiels, les écarts de taille des grilles publiées par les marques et la tenue au lavage des avis clients vérifiés."),
+ ],
+ related=[("enfant","art-1.jpg","Enfant","Meilleure marque de vêtements pour enfant 2026 : le comparatif de 14 marques"),
+          ("enfant","kid-4.jpg","Garçon","Meilleur jean garçon 2026 : 11 marques et leurs avis sur l'usure aux genoux"),
+          ("enfant","kid-6.jpg","Tailles","Quelle marque de vêtements enfant taille grand ? Nos relevés sur 14 marques")],
+),
 ]
 
 # --------------------------------------------------------------------------- #

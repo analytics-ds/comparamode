@@ -11,6 +11,7 @@ LINKS = [
  ("Meilleure marque de vêtements pour enfant 2026", "enfant/meilleure-marque-vetements-enfant/"),
  ("Meilleure marque de vêtements femme 2026",       "femme/meilleure-marque-vetements-femme/"),
  ("Meilleure marque de vêtements homme 2026",       "homme/meilleure-marque-vetements-homme/"),
+ ("Kiabi ou Zara Kids",                            "enfant/rentree-scolaire/"),
  ("Meilleures marques grande taille",               "grande-taille/meilleures-marques-grande-taille/"),
  ("Vêtements de grossesse pas chers",               "grossesse/vetements-grossesse-pas-cher/"),
 ]
