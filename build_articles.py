@@ -708,7 +708,7 @@ def render(a):
 <link rel="icon" type="image/png" sizes="192x192" href="{R}assets/logo/favicon-192.png">
 <link rel="apple-touch-icon" href="{R}assets/logo/apple-touch-icon.png">
 <meta name="theme-color" content="#FFD400">
-<link rel="stylesheet" href="{R}assets/css/site.css?v=6">
+<link rel="stylesheet" href="{R}assets/css/site.css?v=7">
 {jsonld(a, R)}</head>
 <body>
 
@@ -822,7 +822,7 @@ def render(a):
   </div>
 </footer>
 
-<script src="{R}assets/js/site.js?v=6"></script>
+<script src="{R}assets/js/site.js?v=7"></script>
 </body>
 </html>
 '''

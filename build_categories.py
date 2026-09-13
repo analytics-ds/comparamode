@@ -233,7 +233,7 @@ def render(c):
 <link rel="icon" type="image/png" sizes="192x192" href="../assets/logo/favicon-192.png">
 <link rel="apple-touch-icon" href="../assets/logo/apple-touch-icon.png">
 <meta name="theme-color" content="#FFD400">
-<link rel="stylesheet" href="../assets/css/site.css?v=6">
+<link rel="stylesheet" href="../assets/css/site.css?v=7">
 </head>
 <body>
 
@@ -358,7 +358,7 @@ def render(c):
   </div>
 </footer>
 
-<script src="../assets/js/site.js?v=6"></script>
+<script src="../assets/js/site.js?v=7"></script>
 </body>
 </html>
 '''

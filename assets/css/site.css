@@ -447,3 +447,72 @@ td.note.best{color:#1E7A1E}
   .brief{padding:20px}
   .verdict-box{padding:24px}
 }
+
+/* ---------- menu mobile ---------- */
+.mobile-nav{display:none}
+.nav-scrim{display:none}
+.burger{width:44px;height:44px;display:none;place-items:center;margin-right:-10px}
+.burger svg{display:block}
+
+@media (max-width:900px){
+  .burger{display:grid}
+  .nav-scrim{display:block;position:fixed;inset:0;z-index:45;background:rgba(0,0,0,.45)}
+  .nav-scrim[hidden]{display:none}
+  .mobile-nav{display:block;position:absolute;top:100%;left:0;right:0;z-index:60;background:var(--yellow-pale);border-bottom:1px solid var(--line);box-shadow:0 18px 40px rgba(0,0,0,.16);padding:8px var(--gutter) 22px;max-height:calc(100dvh - 100%);overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .mobile-nav[hidden]{display:none}
+  .mobile-nav ul{list-style:none;margin:0;padding:0}
+  .mobile-nav li+li{border-top:1px solid var(--line)}
+  .mobile-nav a{display:flex;align-items:center;min-height:52px;color:var(--ink);font-size:16px;font-weight:500}
+  .mobile-nav .mobile-cta{display:inline-flex;justify-content:center;width:100%;margin-top:18px;min-height:48px;font-size:12px;background:var(--ink);color:#fff;border-color:var(--ink)}
+  html.nav-open,html.nav-open body{overflow:hidden}
+  /* menu ouvert : le header passe en clair, le logo et les icones suivent */
+  header.nav-open{background:rgba(251,246,228,.98);border-bottom-color:var(--line);color:var(--ink)}
+  header.nav-open .burger svg{stroke:var(--ink)}
+  header.nav-open .logo .l-dark{display:block}
+  header.nav-open .logo .l-light{display:none}
+  header.nav-open .iconbtn{background:#fff;border-color:var(--line)}
+  header.nav-open .iconbtn svg{stroke:#1c1c1c}
+}
+
+/* ---------- confort tactile et lisibilite mobile ---------- */
+@media (max-width:900px){
+  /* iOS zoome sur tout champ sous 16px */
+  .select select,.form input{font-size:16px}
+  .form input{padding:14px 18px}
+  .form .btn{min-height:48px}
+
+  /* le formulaire passe en colonne, sinon le bouton pousse hors de la carte */
+  .form{flex-direction:column;border-radius:var(--r-md);padding:8px;gap:8px}
+  .form .btn{width:100%;justify-content:center}
+
+  .iconbtn{width:44px;height:44px}
+  .btn{font-size:12px;padding:15px 22px;min-height:48px}
+  .eyebrow,.brands-head,.side-item .eyebrow{font-size:12px}
+  .tag,.chip,.badge{font-size:12px}
+  .tag{padding:7px 11px}
+  .chip{padding:5px 9px}
+  .table-note,.tool-note,.form-note{font-size:12.5px}
+  /* le tableau deborde volontairement : un degrade signale qu'il se fait glisser */
+  .table-wrap{position:relative}
+  .table-wrap::after{content:"";position:absolute;top:0;right:0;bottom:0;width:26px;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,.16))}
+  .score small,.side-item small,.cmp-row .crit small{font-size:12px}
+
+  /* liens pleine largeur : la zone tactile couvre la ligne, pas seulement le mot */
+  .foot-grid a{display:flex;align-items:center;min-height:44px;font-size:15px}
+  .foot-grid ul{gap:0}
+  .foot-bottom{font-size:13px;gap:10px}
+  .foot-bottom a{display:inline-flex;align-items:center;min-height:44px}
+  .logo{display:flex;align-items:center;min-height:44px}
+  .btn-link{display:inline-flex;align-items:center;min-height:44px;font-size:15px}
+  .tile-label em{font-size:12px}
+
+  .crumbs{font-size:13px;flex-wrap:wrap}
+  .crumbs a{display:inline-flex;align-items:center;min-height:40px}
+
+  .toc summary{min-height:48px;font-size:13.5px}
+  .toc ol{gap:0}
+  .toc a{display:inline-flex;align-items:center;min-height:44px}
+  .faq summary{min-height:56px}
+  .aside-links a{display:flex;align-items:center;min-height:44px}
+  .marquee a,.brands a{display:inline-flex;align-items:center;min-height:44px}
+}
